@@ -18,7 +18,6 @@ int getChars(char *file) {
 	in.close();
 	return count;
 }
-
 /* @brief Goes thru a file counting all the times a new line character is encounterd
  * @paramfile - that contains the information
  * @return the number of lines in the file
